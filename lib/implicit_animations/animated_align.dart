@@ -2,12 +2,12 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class AnimatedAlignDemo extends StatefulWidget {
+class CarromBall extends StatefulWidget {
   @override
-  _AnimatedAlignDemoState createState() => _AnimatedAlignDemoState();
+  _CarromBallState createState() => _CarromBallState();
 }
 
-class _AnimatedAlignDemoState extends State<AnimatedAlignDemo> {
+class _CarromBallState extends State<CarromBall> {
   AlignmentGeometry alignment = Alignment.center;
   Duration animationDuration = Duration(milliseconds: 500);
   Color color = Colors.deepOrange;
